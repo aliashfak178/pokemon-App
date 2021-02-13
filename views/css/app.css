@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 300px;
+  border: 3px solid black;
+  border-radius: 15%;
+  background-color: #80e5ff;
+  box-shadow: 10px 10px 20px #666666, -10px -10px 20px #666666;
+  z-index: 1;
+  overflow: hidden;
+}
+.cart span {
+  position: absolute;
+  font-size: 38px;
+  font-weight: bold;
+  color: #330080;
+  top: 40%;
+  left: 40%;
+}
+.Number {
+  position: relative;
+  top: -5%;
+  left: -5%;
+  transform: translate(-10%, -10%);
+  height: 100px;
+  width: 100px;
+  background-color: #d1b3ff;
+  border-radius: 50%;
+  z-index: -1;
+}
+.IMG img {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  object-fit: fill;
+  top: 10%;
+  left: 16%;
+}
+.Name span {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  font-size: 30px;
+  color: black;
+  padding: 10px;
+  background-color: #d1b3ff;
+  border-radius: 10%;
+}
+.Type span {
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  font-size: 20px;
+  color: black;
+}
+.into {
+  font-size: 35px;
+  margin-left: 30%;
+  color: red;
+}
